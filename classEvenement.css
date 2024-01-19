@@ -1,0 +1,14 @@
+div{
+    display: list-item;
+}
+button{
+    margin: 15px;
+}
+.red{
+    background-color: red;
+    margin-right: 66%;
+}
+h1{
+    background-color: green;
+    margin-right: 66%;
+}
