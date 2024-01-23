@@ -1,5 +1,5 @@
 
-let clique=document.querySelector("#cliqueButton");
+    let clique=document.querySelector("#cliqueButton");
 let compteur=0;
 clique.addEventListener("click",function (){
     event.stopPropagation();

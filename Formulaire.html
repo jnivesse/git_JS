@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulaire</title>
+</head>
+
+<body>
+    <form method="POST">
+        <fieldset>
+            <legend>Informations personelles</legend>
+            Prénom: <input type="text" name="Prénom" minlength="2" maxlength="20"> <br>
+            Nom: <input type="text" name="Nom" minlength="2" maxlength="20"> <br>
+            E-mail: <input type="email" name="E-mail" placeholder="email"> <br>
+            Numéro: <input type="tel" name="Numéro de téléphone" placeholder="Numéro"> <br>
+            mot de passe: <input type="text" name="mot de passe" minlength="8" maxlength="30"> <br>
+            Age: <input type="age" name="Age"> <br>
+            Laisser un commentaire: <textarea cols="70" rows="10" type="text" name="commentaire"
+                placeholder="commentaire" id="comment"></textarea> <br>
+                <div id="affichage"></div>
+            Date de mon commentaire: <input type="date"> <br>
+            Photo: <input type="file" accept=".png, .jpg, .gif" /> <br>
+        </fieldset>
+        <fieldset>
+            <legend>Vous préférez:</legend>
+            <label for="choix-1"><input type="checkbox" id="choix-1" value="valeur-1">Le HTML</label> <br>
+            <label for="choix-2"><input type="checkbox" id="choix-2" value="valeur-2">Le CSS</label> <br>
+            <label for="choix-3"><input type="checkbox" id="choix-3" value="valeur-3">JAVASCRIPT</label> <br>
+            <label for="choix-4"><input type="checkbox" id="choix-4" value="valeur-4">Pas d'avis</label> <br>
+
+        </fieldset> <br>
+
+        <fieldset>
+            <legend>Quel nom</legend>
+            <label for="choix-a"><input type="checkbox" id="choix-a" value="valeur-a">Pain au chocolat</label> <br>
+            <label for="choix-b"><input type="checkbox" id="choix-b" value="valeur-b">Chocolatine</label> <br>
+            <label for="choix-c"><input type="checkbox" id="choix-c" value="valeur-c">Croissant au chocolat</label> <br>
+
+        </fieldset> <br>
+        <fieldset>
+            <legend>Fin de formulaire</legend>
+            <input type="submit">
+            <input type="reset">
+            <select>
+                <option value="valeur-1">Choix 1</option>
+                <option value="valeur-2">Choix 2</option>
+                <option value="valeur-3">Choix 3</option>
+                <option value="valeur-4">Choix 4</option>
+            </select>
+        </fieldset>
+    </form>
+</body>
+
+</html>

@@ -1,0 +1,32 @@
+body{
+    background-color: rgb(14, 12, 41);
+}
+h1{
+    color: white;
+}
+#terre{
+    display: flex;
+    width: 20%;
+    height: 40%;
+    position: absolute;
+    left: 45%;
+    top: 30%;
+    z-index: 2;
+}
+#lune{
+    display: flex;
+    width: 22%;
+    height: 40%;
+    position: absolute;
+    left: 39%;
+    top: 38%;
+    z-index: 3;
+}
+#star{
+    color: white;
+    width: 20px;
+    height: 20px;
+    font-size: xx-large;
+    text-shadow: 0 0 60px rgb(202, 228, 225);
+    position: relative;
+}
