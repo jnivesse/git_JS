@@ -42,6 +42,7 @@ const star=document.getElementById("star");
 star.style.display="none";   
 const xMax = document.documentElement.scrollWidth;
 const yMax = document.documentElement.scrollHeight;
+console.log(xMax);
 let toss;
 let rngX;
 let rngY;
@@ -84,7 +85,7 @@ function firestar(){
             let blaX=(rngStarX+(((rngX-rngStarX)/200)*i));
             star.style.left=blaX + "px";
             star.style.top=(rngStarY+(((rngY-rngStarY)/200)*i)-100) + "px";
-            console.log(blaX);
+            //console.log(blaX);
             if(blaX<10 || blaX>(xMax-25)){
                 star.style.display="none"; 
             }
